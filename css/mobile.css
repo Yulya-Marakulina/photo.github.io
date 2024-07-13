@@ -99,6 +99,7 @@
         margin: 0 auto 40px;
     }
     .menu .header_reservation a{
+        text-decoration: none;
         color: #FFFFFF;
         font-family: "Montserrat-SemiBold";
         font-size: 12px;
@@ -109,6 +110,7 @@
         background-color: #FFFFFF;
     }
     .menu .header_reservation:hover a {
+        text-decoration: none;
         color: #222222;
     }
     .menu.active {
@@ -125,13 +127,6 @@
     .nav-logo .social_desc {
         display: none;
     }
-
-
-
-
-
-
-
     h2{
         font-family: "Montserrat-Light";
         font-size: 22px;
@@ -152,11 +147,9 @@
         padding: 0;
     }
     .header {
-        /*background-color: #F4F4F4;*/
         background-color: #F4F4F4;
         margin-bottom: 50px;
     }
-    
     .header_name {
         margin-bottom: 12px;
     }
@@ -210,23 +203,29 @@
         color: #222222;
         text-align: center;
     }
-    .header_reservation {
+    .header_text .header_reservation {
         width: 220px;
         height: 50px;
         background-color: #222222;
-        color: #FFFFFF;
-        font-family: "Montserrat-SemiBold";
-        font-size: 12px;
-        line-height: auto;
-        letter-spacing: 0.15em;
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
         margin: 0 auto 40px;
     }
-    .header_reservation:hover {
+    .header_text .header_reservation a {
+        text-decoration: none;
+        font-family: "Montserrat-SemiBold";
+        font-size: 12px;
+        letter-spacing: .15em;
+        color: #FFFFFF;
+    }
+    .header_text .header_reservation:hover {
         background-color: #FFFFFF;
+        color: #222222;
+    }
+    .header_text .header_reservation:hover a {
+        text-decoration: none;
         color: #222222;
     }
     .header_photo {

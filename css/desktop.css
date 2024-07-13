@@ -166,7 +166,7 @@
         line-height: 26px;
         color: #666666;
     }
-    .header_reservation{
+    .header_text .header_reservation{
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -175,18 +175,19 @@
         height: 60px;
         border: none;
     }
-    .header_reservation a {
+    .header_text .header_reservation a {
         text-decoration: none;
         font-family: "Montserrat-SemiBold";
         font-size: 14px;
         letter-spacing: .15em;
         color: #FFFFFF;
     }
-    .header_reservation:hover{
+    .header_text .header_reservation:hover{
         background-color: #FFFFFF;
         cursor: pointer;
     }
-    .header_reservation:hover a {
+    .header_text .header_reservation:hover a {
+        text-decoration: none;
         color: #222222;
     }
     .header{
