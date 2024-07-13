@@ -170,19 +170,24 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-family: "Montserrat-SemiBold";
-        font-size: 14px;
-        letter-spacing: .15em;
-        color: #FFFFFF;
         background-color: #222222;
         width: 220px;
         height: 60px;
         border: none;
     }
+    .header_reservation a {
+        text-decoration: none;
+        font-family: "Montserrat-SemiBold";
+        font-size: 14px;
+        letter-spacing: .15em;
+        color: #FFFFFF;
+    }
     .header_reservation:hover{
-        color: #222222;
         background-color: #FFFFFF;
         cursor: pointer;
+    }
+    .header_reservation:hover a {
+        color: #222222;
     }
     .header{
         height: 900px;
